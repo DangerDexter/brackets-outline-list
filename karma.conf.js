@@ -18,6 +18,9 @@ module.exports = function (config) {
             subdir: "lcov",
             file: "lcov.info"
         },
+        client:{
+            clearContext: false
+        },
         files: [
             {
                 pattern: "thirdparty/*.js",
